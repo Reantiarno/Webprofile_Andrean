@@ -1,0 +1,321 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+   text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+    padding: 0px 0%;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 650;
+}
+nav ul li a:hover
+{
+    background-color: rgb(29, 34, 164);
+    color: white;
+    border-radius: 5px;
+}
+.logo
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: 000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#home
+{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    background-color:  rgb(168, 232, 91);
+}
+.home p
+{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+.home p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:rgb(35, 47, 53);
+    font-size: 20px;
+}
+.home p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Verdana, Geneva, Tahoma, sans-serif, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(35, 47, 53);
+    letter-spacing: none;
+    font-size: 25px;
+}
+.home p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Verdana, Geneva, Tahoma, sans-serif, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(45, 55, 61);
+    font-size: 25px;
+}
+.home
+{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(13%, 42%)
+    
+}
+
+.picture
+{
+    width: 307px;
+    height: auto;
+    margin-top: 40px;
+    position: absolute;
+    left: 80%;
+    transform: translateX(-75%);
+    border-radius: 10px;
+}
+
+.about
+{
+    height: 55wh;
+    background-color: rgb(211, 225, 153);
+    padding: 2% 10% 10%;
+}
+
+.about-desc
+{
+    margin: 50px 50px;
+}
+.about-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin bottom: 30px;
+}
+.about-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7e7e7e;
+    text-align: center;
+}
+.row
+{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+}
+.row .column p
+{
+    text-align: justify;
+}
+.column{
+    flex: 50%;
+    padding: 30px;
+    height: 300px;
+}
+
+/* Skill */
+.skill
+{
+    height: 55wh;
+    background-color: rgb(162, 201, 131);
+    padding: 2% 10% 10%;
+}
+.skill-desc
+{
+    margin: 50px 50px;
+}
+
+.skill-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin bottom: px;
+}
+.skill-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #555353;
+    text-align: center;
+}
+.box-container
+{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+.box1, .box2
+{
+    width: 350px;
+    height: 350px;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    background-color: rgb(217, 244, 176);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0p 5px;
+}
+.box1 span, .box2 span
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(137, 204, 66);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.box1 p:nth-child(3), .box2 p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#7f7f7f;
+    width: 259px;
+    margin: 0px 0px 50px 0px;
+}
+/* contact */
+.contact
+{
+    height: 55wh;
+    background-color: rgb(211, 225, 153);
+    padding: 2% 10% 10%;
+}
+.contact-desc
+{
+    margin: 50px 50px;
+}
+.contact-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin bottom: 30px;
+
+}
+.contact-desc p:nth-child(2)
+{
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+    margin bottom: 30px; 
+    margin-top : 50px;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 17px;
+    border: 1px solid rgb(215, 153, 153);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px ;
+    resize: vertical;
+}
+input[type=submit]
+{
+    background-color: rgb(92, 165, 211);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover
+{
+    background-color:rgb(52, 135, 187); ;
+}
+/* footer */ 
+footer{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(50, 181, 33);
+}
+footer p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer p:nth-child(1)
+{
+    font-size: 30px ;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+}
+footer p:nth-child(2)
+{
+    font-size: 18px ;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+}
+.social-icons
+{
+    margin: 30px 0px;
+    display: flex;
+
+}
+.social-icons a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: #ffff;
+    border-radius: 50%;
+}
+.social-icons i{
+    font-size: 35px;
+    color: rgb(40, 216, 13) ;
+
+}
